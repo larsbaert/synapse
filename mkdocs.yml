@@ -1,0 +1,51 @@
+# General information
+site_name: Synapse
+site_author: Lars Baert
+site_description: Synapse is my second brain
+
+# Repository
+repo_name: larsbaert/synapse
+repo_url: https://github.com/larsbaert/synapse
+
+# Theme
+# inspired by https://squidfunk.github.io/mkdocs-material/
+theme:
+  name: material
+  palette:
+    primary: "deep orange"
+    accent: "orange"
+  font:
+    text: Open Sans
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+
+markdown_extensions:
+  - toc
+
+
+nav:
+  - Home: 
+    - index.md
+  - About: 
+    - documentation/about/index.md
+    - About me: documentation/about/about-me.md
+    - About synapse: documentation/about/about-synapse.md
+  - Projects:
+    - documentation/projects/index.md
+  - Setup:
+    - documentation/setup/index.md
+
