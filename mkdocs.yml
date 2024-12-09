@@ -46,6 +46,10 @@ nav:
     - About synapse: documentation/about/about-synapse.md
   - Projects:
     - documentation/projects/index.md
+    - Finance:
+      - documentation/projects/finance/index.md
+      - Database: documentation/projects/finance/database.md
+      - Python: documentation/projects/finance/python.md
   - Setup:
     - documentation/setup/index.md
 
